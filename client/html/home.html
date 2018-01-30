@@ -27,7 +27,7 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
+        <div class="collapse navbar-collapse container" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
                 <form class="navbar-form navbar-left" role="search">
@@ -57,21 +57,9 @@
 
       <div class="row">
 
-        <div class="col-lg-3">
+        <div class="col-lg-12 container" >
 
-          <h1 class="my-4">分类列表</h1>
-          <div class="list-group">
-            <a href="#" class="list-group-item">Category 1</a>
-            <a href="#" class="list-group-item">Category 2</a>
-            <a href="#" class="list-group-item">Category 3</a>
-          </div>
-
-        </div>
-        <!-- /.col-lg-3 -->
-
-        <div class="col-lg-9">
-
-          <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
+          <div id="carouselExampleIndicators" class="carousel slide my-4 col-lg-10 container" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -98,8 +86,62 @@
             </a>
           </div>
 
+          <div class="col-lg-10 container">
+              <div class="row">
+              <div class="col-lg-2 col-md-6 mb-4">
+                <div class="txt padding:0 0 5px" >影片筛选</div> 
+                <a href="#">查看全部</a>
+              </div>
+
+              <div class="col-lg-4 col-md-6 mb-4">
+                <dl>
+                  <dt>类型</dt>
+                  <dd>
+                    <a href="#">军事</a> <a href="#">古装</a> <a href="#">谍战</a> <a href="#">谍战</a> <a href="#">谍战</a> <a href="#">谍战</a>
+                  </dd>
+                  <dd>
+                      <a href="#">军事</a> <a href="#">古装</a> <a href="#">谍战</a> <a href="#">谍战</a> <a href="#">谍战</a> <a href="#">谍战</a>
+                  </dd>
+                  <dd>
+                      <a href="#">军事</a> <a href="#">古装</a> <a href="#">谍战</a> <a href="#">谍战</a> <a href="#">谍战</a> <a href="#">谍战</a>
+                  </dd>
+                </dl>
+              </div>
+
+              <div class="col-lg-4 col-md-6 mb-4">
+                  <dl>
+                      <dt>地区</dt>
+                      <dd>
+                        <a href="#">内地</a> <a href="#">韩国</a> <a href="#">泰国</a> <a href="#">香港</a>
+                      </dd>
+                      <dd>
+                          <a href="#">欧美</a> <a href="#">日本</a> <a href="#">台湾</a> <a href="#">英国</a> 
+                      </dd>
+                      <dd>
+                          <a href="#">新加坡</a>
+                      </dd>
+                    </dl>
+              </div>
+
+              <div class="col-lg-2 col-md-6 mb-4">
+                  <dl>
+                      <dt>年代</dt>
+                      <dd>
+                        <a href="#">2018</a> <a href="#">2017</a> <a href="#">2016</a> <a href="#">2015</a>
+                      </dd>
+                      <dd>
+                          <a href="#">2018</a> <a href="#">2018</a> <a href="#">2018</a> <a href="#">2018</a> 
+                      </dd>
+                      <dd>
+                          <a href="#">2018</a>
+                      </dd>
+                    </dl>
+              </div>
+            </div>
+           </div>
+
           <div class="row">
-            <div class="col-lg-4 col-md-6 mb-4">
+            <div class="col-lg-3 col-md-6 mb-4">
               <div class="card h-100">
                   <img src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2507227732.webp",alt="${movie.title}">
                 <div class="card-body">
@@ -112,7 +154,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6 mb-4">
+            <div class="col-lg-3 col-md-6 mb-4">
                 <div class="card h-100">
                     <img src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2507227732.webp",alt="${movie.title}">
                   <div class="card-body">
@@ -125,7 +167,7 @@
                   </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 mb-4">
+            <div class="col-lg-3 col-md-6 mb-4">
                 <div class="card h-100">
                     <img src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2507227732.webp",alt="${movie.title}">
                   <div class="card-body">
@@ -138,8 +180,21 @@
                   </div>
                 </div>
             </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="card h-100">
+                  <img src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2507227732.webp",alt="${movie.title}">
+                <div class="card-body">
+                  <h4 class="card-title">芳华</h4>
+                  <p class="card-text">主演:张航,还有你</p>
+                  <small class="text-muted">★★★★☆ 7.8分</small>
+                </div>
+                <div class="card-footer">
+                    <p class="card-text">没有被善待的人，最容易识别善良，也最珍惜善良。</p>
+                </div>
+              </div>
+          </div>
 
-            <div class="col-lg-4 col-md-6 mb-4">
+            <div class="col-lg-3 col-md-6 mb-4">
                       <div class="card h-100">
                           <img src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2508926717.webp",alt="${movie.title}">
                         <div class="card-body">
@@ -152,7 +207,7 @@
                         </div>
                       </div>
             </div>
-            <div class="col-lg-4 col-md-6 mb-4">
+            <div class="col-lg-3 col-md-6 mb-4">
                 <div class="card h-100">
                     <img src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2508926717.webp",alt="${movie.title}">
                   <div class="card-body">
@@ -165,7 +220,7 @@
                   </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 mb-4">
+            <div class="col-lg-3 col-md-6 mb-4">
                 <div class="card h-100">
                     <img src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2508926717.webp",alt="${movie.title}">
                   <div class="card-body">
@@ -178,6 +233,19 @@
                   </div>
                 </div>
             </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="card h-100">
+                  <img src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2508926717.webp",alt="${movie.title}">
+                <div class="card-body">
+                  <h4 class="card-title">前任3：再见前任</h4>
+                  <p class="card-text">主演:张航,还有你</p>
+                  <small class="text-muted">★★★☆☆ 5.8分</small>
+                </div>
+                <div class="card-footer">
+                    <p class="card-text">再见，不是不爱了。</p>
+                </div>
+              </div>
+          </div>
 
           </div>
           <!-- /.row -->
